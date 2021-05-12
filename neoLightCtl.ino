@@ -1,4 +1,5 @@
-#include "test.h"
+#include "simpleNeopixel.h"
+
 #define PIXELS 144  // Number of pixels in the string
 
 int t=0;
