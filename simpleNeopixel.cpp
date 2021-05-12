@@ -1,12 +1,10 @@
 //Code copied from
 //https://github.com/bigjosh/SimpleNeoPixelDemo/blob/master/SimpleNeopixelDemo/SimpleNeopixelDemo.ino
-//(MIT Liscence)
+// (Copyright © 2015 Josh Levine, adapted under MIT liscence)
 //Modified Values to work with arduino nano and neopixels from 2019
 
-#include "SimpleNeopixel.h"
-#include <SimpleNeopixel.h>
-
-
+#include "simpleNeopixel.h"
+#include <Arduino.h>
 
 #define PIXEL_PORT  PORTD  // Port of the pin the pixels are connected to
 #define PIXEL_DDR   DDRD   // Port of the pin the pixels are connected to
