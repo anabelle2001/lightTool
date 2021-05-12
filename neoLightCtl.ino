@@ -1,15 +1,9 @@
 #include "simpleNeopixel.h"
-
+#include "./FastLED-3.4.0/src/hsv2rgb.h"
 #define PIXELS 144  // Number of pixels in the string
 
-int t=0;
 char incomingCommand[30];
 int incComOffset = 0;
-
-
-void parseCommand() {
-
-}
 
 void parseSerial() {
 	if (Serial.available()) {
@@ -27,6 +21,8 @@ void parseSerial() {
 		}
 	}
 }
+
+int t=0;
 
 void displayLights() {
 	t=(1+t)%PIXELS;
@@ -51,3 +47,4 @@ void loop() {
 	show();
 	parseSerial();
 }
+

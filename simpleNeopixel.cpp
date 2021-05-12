@@ -99,3 +99,4 @@ void sendPixel( unsigned char r, unsigned char g , unsigned char b )  {
   sendByte(b);
   interrupts();
 }
+
