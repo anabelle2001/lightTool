@@ -1,5 +1,4 @@
 #include "simpleNeopixel.h"
-#include "./FastLED-3.4.0/src/hsv2rgb.h"
 #define PIXELS 144  // Number of pixels in the string
 
 char incomingCommand[30];
